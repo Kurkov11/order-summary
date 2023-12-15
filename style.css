@@ -1,0 +1,120 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+#wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    min-width: 333px;
+    max-width: 420px;
+    background-color: white;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 1rem;
+    width: fit-content;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#bg-mobile{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+}
+#content{
+    padding: 1.5rem 1.5rem;
+    font-family: 'red hat display';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+heading{
+    letter-spacing: 0.03rem;
+    font-weight: 900;
+    font-size: 22px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1rem;
+}
+#note{
+    width: 50px;
+    height: 50px;
+}
+#info{
+    color: hsla(224, 23%, 55%, 0.8);
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#sb-box{
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+#sb-info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#sb-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.1rem;
+}
+#plan-type{
+    font-weight: 900;
+    font-size: 16px;
+}
+#cost{
+    color: hsla(224, 23%, 55%, 0.8);
+    font-size: 15px;
+}
+#sb-change{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(54, 43, 216);
+}
+#sb-change:hover{
+    color: rgb(128, 95, 225);
+    cursor: pointer;
+}
+#pay-proceed{
+    background-color: rgb(54, 43, 216);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    padding: 0.9rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(54, 43, 216, 0.4) 0px 10px 36px 0px, rgba(54, 43, 216, 0.06) 0px 0px 0px 1px;
+}
+#pay-proceed:hover{
+    background-color: rgb(128, 95, 225);
+    cursor: pointer;
+}
+#pay-cancel{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+#pay-cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+@media only screen and (width >= 600px){
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        background-position: top;
+    }
+}
